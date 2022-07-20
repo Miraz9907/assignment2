@@ -253,53 +253,6 @@ hr{
 
 /* =================================================matches part style end ===================================================== */
 
-/*============================================== all group style start  =======================================================*/
-.group-top{
-    text-align: center;
-    margin: 2px 50px;
-}
-.all-group{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-
-}
-.page-title{
-    text-align: center;
-    margin: 70px px;
-}
-
-.groups{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-}
-.team{
-    background-color: rgb(240, 238, 236);
-    padding: 20px;
-    border-radius: 30px;
-    box-shadow: 3px 5px 10px gray;
-}
-.group-title{
-    text-align: center;
-    font-size: 20px;
-    font-weight: 700;
-}
-.group-info{
-    display: flex;
-    align-items: center;
-    justify-content: space-between; 
-
-}
-
-.group-info img{
-    height: 5vw;
-    width: 6vw;
-}
 
 
 /* ====================================================Responsive design style start ================================================== */
@@ -312,6 +265,11 @@ hr{
        flex-direction: column;
        justify-content: center;
        align-items: center;
+    }
+    .short-msg{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
     .half-width img{
         margin-top:20px ;
