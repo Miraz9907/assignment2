@@ -284,6 +284,11 @@ hr{
         background-color: white;
         
     }
+    .thumbnail{
+        display: flex;
+        justify-content: center;
+        
+    }
     .upmatch {
         border: 1px solid grey;
     }
