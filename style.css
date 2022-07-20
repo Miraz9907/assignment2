@@ -31,12 +31,30 @@ h1{
 .half-width p{
     margin-bottom: 40px;
 }
+/* @keyframes anime {
+    form{
+        transform: translate(10px);
+    }
+    to{
+        transform: translate(20px);
+    }
+} */
 .watch{
+    display: inline-block;
     text-decoration: none;
     color: white;
     background-color: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
+    /* animation: anime 1s ease-in-out 0.5 infinite alternate ;
+    animation-play-state: running; */
+    transition: transform 1.5s, border-radius 1.5s;
+}
+
+.watch:hover {
+    transform:scale(1.5);
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px #ff0000;
 }
 .fa-angle-right{
     padding-left: 5px;
@@ -84,13 +102,20 @@ h1{
     padding: 10px 30px;
 
 }
+#matches{
+    background-color: red;
+}
 .box1 a.group{
     padding: 10px 60px;
 }
 
 .box1 a.blogs{
-    background-color: red;
+    /* background-color: red; */
     padding: 10px 80px;
+}
+#blogs{
+    background-color: red;
+    /* padding: 10px 80px; */
 }
 
 .box2{
@@ -126,6 +151,13 @@ h1{
     padding-bottom: 15px;
 
 }
+.transfer-info > div{
+    color: gray;
+}
+
+/* .fa-clock{
+    color: grey;
+} */
 .comment{
     padding-left: 40px;
 }
