@@ -3,6 +3,7 @@ body{
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+/*==================================================== index part style ====================================================== */
 .top-banner{
     display: flex;
     justify-content: center;
@@ -31,14 +32,7 @@ h1{
 .half-width p{
     margin-bottom: 40px;
 }
-/* @keyframes anime {
-    form{
-        transform: translate(10px);
-    }
-    to{
-        transform: translate(20px);
-    }
-} */
+
 .watch{
     display: inline-block;
     text-decoration: none;
@@ -46,8 +40,6 @@ h1{
     background-color: #DD0000;
     border-radius: 5px;
     padding: 16px 25px;
-    /* animation: anime 1s ease-in-out 0.5 infinite alternate ;
-    animation-play-state: running; */
     transition: transform 1.5s, border-radius 1.5s;
 }
 
@@ -110,12 +102,10 @@ h1{
 }
 
 .box1 a.blogs{
-    /* background-color: red; */
     padding: 10px 80px;
 }
 #blogs{
     background-color: red;
-    /* padding: 10px 80px; */
 }
 
 .box2{
@@ -155,12 +145,11 @@ h1{
     color: gray;
 }
 
-/* .fa-clock{
-    color: grey;
-} */
+
 .comment{
     padding-left: 40px;
 }
+
 
 .view{
     display: flex;
@@ -177,31 +166,6 @@ h1{
     border-radius: 5px;
     padding: 10px 30px;
 }
-.matches{
-    display: flex;
-    flex-direction: column;
-    border: 2px solid rgb(239, 239, 239);
-    border-radius: 10px;
-    padding: 10px;
-}
-.match{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    margin-top: 30px;
-}
-.match span{
-    margin: 0px 15px;
-}
-.match-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    line-height: 1px;
-}
-
 
 .footer{
     color: white;
@@ -254,4 +218,88 @@ hr{
     font-size: 25px;
     background-color: white;
     padding: 5px;
+}
+.fa-github{
+    color:rgb(1, 5, 52);
+    font-size: 25px;
+    background-color: white;
+    padding: 5px;
+}
+
+/* ==========================================================index part style end ================================================= */
+
+/*=================================================== matches part style start ====================================================== */
+.matches{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 10px;
+    padding: 10px;
+}
+.match{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.match span{
+    margin: 0px 15px;
+}
+.match-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+
+/* =================================================matches part style end ===================================================== */
+
+/*============================================== all group style start  =======================================================*/
+.group-top{
+    text-align: center;
+    margin: 2px 50px;
+}
+.all-group{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.page-title{
+    text-align: center;
+    margin: 70px px;
+}
+
+.groups{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.team{
+    background-color: rgb(240, 238, 236);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px gray;
+}
+.group-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.group-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+
+}
+
+.group-info img{
+    height: 50px;
+    width: 60px;
 }
