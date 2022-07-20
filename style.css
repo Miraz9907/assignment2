@@ -177,6 +177,31 @@ h1{
     border-radius: 5px;
     padding: 10px 30px;
 }
+.matches{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(239, 239, 239);
+    border-radius: 10px;
+    padding: 10px;
+}
+.match{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.match span{
+    margin: 0px 15px;
+}
+.match-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+
 
 .footer{
     color: white;
